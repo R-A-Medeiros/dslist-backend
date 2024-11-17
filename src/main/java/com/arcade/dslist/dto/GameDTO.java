@@ -19,8 +19,8 @@ public class GameDTO {
 	public GameDTO() {
 		
 	}
-	public GameDTO(Game game) {
-		BeanUtils.copyProperties(game, this);
+	public GameDTO(Game entity) {
+		BeanUtils.copyProperties(entity, this);
 	}
 	public Long getId() {
 		return id;
